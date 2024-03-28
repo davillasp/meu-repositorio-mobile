@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo-mq.css">
+    <link rel="stylesheet" href="estilo-novo.css">
+
+    <title>HEDY LAMARR</title>
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>HEDY LAMARR</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clikMenu()">density_small</span>
+        <menu id="itens">
+
+            <ul>
+                <li><a href="index.html">HEDY LAMARR</a></li>
+                <li><a href="topologiaderede.html">TOPOLOGIA</a></li>
+                <li><a href="WIFI.HTML">WIFI</a></li>
+                <li><a href="COMUTADOR.HTML">COMUTADOR</a></li>
+                <li><a href="blackbox.html">BLACKBOX</a></li>
+                <li><a href="PYTHON.HTML">PYTHON</a></li>
+                <li><a href="C SHARP.HTML">C SHARP</a></li>
+                <li><a href="JAVASCRIPT.HTML">JAVA SCRIPTS</a></li>
+                <li><a href="PRE PROJETO.HTML">PRE PROJETO</a></li>
+                <li><a href="cripto.html">CRIPTOGRAFIA</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+
+        <article>
+            <IMG src="hedy lamarr.jpg" alt="Hedy Lamarr">
+            <h2>HEDY LAMARR</h2>
+            <!--colocar uma div container e inserir imagem, display flex; align-itens center;
+            https://pt.stackoverflow.com/questions/30057/alinhar-texto-depois-de-imagem
+            -->
+    <p>Hedy Lamarr, uma figura icônica do século XX, foi muito mais do que uma atriz de Hollywood glamorosa. Nascida na
+        Áustria em 1914, Lamarr emergiu como uma das estrelas mais deslumbrantes da era dourada do cinema. No entanto,
+        por trás da fachada de beleza e glamour, residia uma mente brilhante e inovadora. Lamarr foi uma inventora
+        visionária cujo trabalho revolucionou a tecnologia de comunicação e ainda influencia o mundo moderno.
+    </p>
+
+
+        <p>  Apesar de sua fama como atriz, o interesse de Lamarr pela ciência e engenharia era profundo. Durante a Segunda
+        Guerra Mundial, ela se juntou ao co-inventor George Antheil para desenvolver um sistema de comunicação secreto
+        chamado "Salto de Frequência". Esta invenção pioneira visava impedir que os inimigos interceptassem e
+        decodificassem mensagens de rádio, uma técnica precursora da tecnologia de espalhamento espectral utilizada em
+        comunicações sem fio modernas, como Wi-Fi e Bluetooth.
+    </p>
+
+
+        <P>A contribuição de Lamarr para a tecnologia não foi reconhecida durante sua vida, mas seu legado é indiscutível.
+        Sua genialidade como inventora é um lembrete poderoso de que a criatividade e a inovação não têm limites,
+        transcende qualquer campo de atuação e podem moldar o curso da história de maneiras imprevisíveis. Hedy Lamarr
+        personifica a ideia de que a beleza pode coexistir harmoniosamente com a inteligência e o engenho, inspirando
+        gerações futuras a explorar novos horizontes e desafiar as convenções estabelecidas.
+    </p>
+
+        </article>
+
+    </main>
+    <script>
+        /*
+            function clikMenu() {
+            itens.style.display = 'block'
+        }
+
+        ----------------------------------
+                function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        */
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

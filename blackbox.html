@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo-mq.css">
+    <link rel="stylesheet" href="estilo-novo.css">
+
+    <title>BLACKBOX</title>
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>BLACKBOX</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clikMenu()">density_small</span>
+        <menu id="itens">
+
+            <ul>
+                <li><a href="index.html">HEDY LAMARR</a></li>
+                <li><a href="topologiaderede.html">TOPOLOGIA</a></li>
+                <li><a href="WIFI.HTML">WIFI</a></li>
+                <li><a href="COMUTADOR.HTML">COMUTADOR</a></li>
+                <li><a href="blackbox.html">BLACKBOX</a></li>
+                <li><a href="PYTHON.HTML">PYTHON</a></li>
+                <li><a href="C SHARP.HTML">C SHARP</a></li>
+                <li><a href="JAVASCRIPT.HTML">JAVA SCRIPTS</a></li>
+                <li><a href="PRE PROJETO.HTML">PRE PROJETO</a></li>
+                <li><a href="cripto.html">CRIPTOGRAFIA</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+
+        <article>
+<img src="blackbox.jpg" alt="imagem grande">
+            <h2>BLACKBOX</h2>
+            <p>
+                Utilizadas na programação, uma "black box" nas IA pode ser uma ferramenta ou serviço que oferece
+                funcionalidades de IA pré-construídas para melhorar o desempenho, a personalização ou a interatividade
+                do site, sem que o desenvolvedor precise entender completamente os detalhes técnicos do funcionamento
+                interno da IA.</p>
+                
+                <P>Essas "black boxes" de IA podem oferecer uma variedade de funcionalidades, como:
+
+                <i><p>Recomendação de Conteúdo:</i> Analisar o comportamento do usuário no site e recomendar conteúdo relevante
+                com base em suas preferências e histórico de navegação.</p>
+                
+                <i>Respostas Automáticas</i>: Fornecer respostas automáticas a perguntas comuns dos usuários, utilizando
+                técnicas de processamento de linguagem natural (NLP) para entender e gerar respostas adequadas.
+                Personalização de Experiência do Usuário: Adaptar o conteúdo e o layout do site de acordo com o perfil e
+                as preferências do usuário, proporcionando uma experiência mais personalizada.
+
+               <i><p>Análise de Sentimentos:</i> Analisar o sentimento expresso pelos usuários em comentários, avaliações ou
+                interações nas redes sociais e fornecer insights sobre a percepção do público em relação ao site ou aos
+                produtos/serviços oferecidos.</p> 
+
+                <i><P>Detecção de Fraude:</i> Identificar padrões suspeitos de comportamento que possam indicar atividades
+                fraudulentas, como bots ou ataques de phishing, e tomar medidas para mitigar esses riscos.</p> 
+
+                <P>Ao utilizar uma "black box" de IA para programação de sites, os desenvolvedores podem
+                aproveitafacilmente os benefícios da inteligência artificial sem precisar desenvolver algoritmos
+                complexos do zero. Isso pode economizar tempo e recursos, permitindo que se concentrem em outras áreas
+                do desenvolvimento do site, como design, usabilidade e funcionalidade. No entanto, é importante escolher
+                cuidadosamente as soluções de IA para garantir que atendam às necessidades específicas do site e dos
+                usuários.</p> 
+
+            </p>
+           
+        </article>
+
+    </main>
+    <script>
+        /*
+            function clikMenu() {
+            itens.style.display = 'block'
+        }
+
+        ----------------------------------
+                function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        */
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

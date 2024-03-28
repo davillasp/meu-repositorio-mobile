@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo-mq.css">
+    <link rel="stylesheet" href="estilo-novo.css">
+
+    <title>CSHARP</title>
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>CSHARP</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clikMenu()">density_small</span>
+        <menu id="itens">
+
+            <ul>
+                <li><a href="index.html">HEDY LAMARR</a></li>
+                <li><a href="topologiaderede.html">TOPOLOGIA</a></li>
+                <li><a href="WIFI.HTML">WIFI</a></li>
+                <li><a href="COMUTADOR.HTML">COMUTADOR</a></li>
+                <li><a href="blackbox.html">BLACKBOX</a></li>
+                <li><a href="PYTHON.HTML">PYTHON</a></li>
+                <li><a href="C SHARP.HTML">C SHARP</a></li>
+                <li><a href="JAVASCRIPT.HTML">JAVA SCRIPTS</a></li>
+                <li><a href="PRE PROJETO.HTML">PRE PROJETO</a></li>
+                <li><a href="cripto.html">CRIPTOGRAFIA</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+
+        <article>
+            <img src="c sharp.jpg" alt="imagem grande">
+            <H2>CSHARP</H2>
+    <p>C# é uma linguagem de programação moderna, orientada a objetos e fortemente tipada, desenvolvida pela Microsoft.
+        Lançada em 2000 como parte da plataforma .NET, C# é amplamente utilizada para desenvolvimento de aplicativos de
+        desktop, jogos, aplicativos móveis e serviços web.</p>
+
+
+        <p>A linguagem é reconhecida por sua sintaxe limpa e intuitiva, facilitando a criação de código legível e
+        eficiente. Ela suporta recursos avançados como herança, polimorfismo, sobrecarga de operadores e tratamento de
+        exceções, permitindo aos desenvolvedores criar software robusto e escalável.</p>
+
+
+        <P>C# é parte integrante do ecossistema .NET, que inclui uma vasta biblioteca de classes e frameworks para diversas
+        finalidades. Além disso, o uso de ferramentas como Visual Studio facilita o desenvolvimento e a depuração de
+        aplicativos em C#.</P>
+
+
+        <P>Com uma comunidade ativa e o apoio contínuo da Microsoft, C# continua a ser uma escolha popular entre os
+        desenvolvedores para uma ampla gama de projetos de software.
+    </p>
+
+        </article>
+
+    </main>
+    <script>
+        /*
+            function clikMenu() {
+            itens.style.display = 'block'
+        }
+
+        ----------------------------------
+                function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        */
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>
